@@ -129,7 +129,7 @@
   };
 
   Pano.prototype._loadGeometry = function (geometrySrc) {
-    this.geometryInfo = this.webVRCommon.loadGeometry({ src: geometrySrc || "../assets/sphere.json" });
+    this.geometryInfo = this.webVRCommon.loadGeometry({ src: geometrySrc || "assets/sphere.json" });
   };
 
   // Load textures all at once.
